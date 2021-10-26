@@ -1,0 +1,109 @@
+:root {
+    --bleuFoncé: #086788;
+    --bleuClair: #07a0c3;
+    --jaune: #f0c808;
+    --beige: #fff1d0;
+    --rouge: #dd1c1a;
+}
+
+@font-face {
+    font-family: "Pokemon Classic";
+    src: url(../fonts/Pokemon\ Classic.ttf);
+}
+
+body {
+    background: url(../img/fond.png) no-repeat;
+    background-size: cover;
+    font-family: 'Pokemon Classic', sans-serif;
+}
+
+h1 {
+    color:var(--jaune);
+    font-size: 3em;
+}
+
+.btn {
+    background-color: var(--bleuFoncé);
+    color: var(--jaune);
+    font-size: 1.1em;
+}
+
+.modal-content {
+    background: rgba(255, 241, 208, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#logo {
+    width: 130%;
+}
+
+.teamRocket {
+    z-index: 1000;
+    overflow: visible;
+}
+
+.victory {
+    background: url(../img/foret.png) no-repeat;
+    background-size: cover;
+    color: var(--jaune);
+}
+
+.sentence {
+    color: var(--bleuFoncé);
+}
+
+#sacha {
+    width: 80%;
+    height: 100%;
+}
+
+#logoJeu {
+    width: 100%;
+}
+
+.question {
+    background-color: white;
+    border: 10px solid;
+    border-color: #dd1c1a;
+}
+
+.pokemonPick {
+    height: 45vh;
+}
+
+#choose {
+    margin: 10px;
+    padding: 30Px;
+}
+
+.loose {
+    background: url(../img/grotte.png) no-repeat;
+    background-size: cover;
+}
+
+#rocketLoose {
+    color: #07a0c3;
+    padding-left: 320px;
+}
+
+
+#cardPokemon {
+    width: 100%;
+}
+
+#cardPokemon2 {
+    width: 100%;
+}
+
+#cardPokemon3 {
+    width: 100%;
+}
+
+.pokeCard {
+        width: 100%;
+        background-color: rgba(178, 178, 190, 0.1)
+}

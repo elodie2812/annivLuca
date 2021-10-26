@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <title>Happy Birthday Luca !</title>
+</head>
+
+<body>
+    <audio autoplay loop id="audio1">
+        <source src="assets/son/title.mp3" type="audio/mp3">
+    </audio>
+    <!--jeu-->
+    <section class="jeu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 d-flex justify-content-start">
+                    <a href="index.html"><img id="logoJeu" src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                
+                <div class="col-lg-7 pokemonPick d-flex">
+                        <div id="cardPokemon" class="d-inline">
+                        </div>
+
+                        <div id="cardPokemon2" class="d-inline">
+                        </div>
+
+                        <div id="cardPokemon3" class="d-inline">
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12s text-center mb-3">
+                        <h1> Happy Birthday Luca !</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 d-flex justify-content-start">
+                        <img id="sacha" src="assets/img/sasha.png">
+                    </div>
+                    <div class="col-lg-6 question justify-content-center mt-4 mb-3">
+                        <p>Célébre 25 ans de combats Pokémon, d'aventures et de souvenirs avec une parade festive de Pokémon dont Mew, Ho-Oh, Lunala et Zamazenta. Avec 10 boosters Célébrations et 5 boosters supplémentaires du JCC Pokémon, tu ne manqueras pas d'occasions de verser dans la nostalgie en construisant un deck qui célébrera tout ce que le JCC Pokémon peut offrir. De plus, tu pourras ranger tes nouvelles cartes dans un coffret de collection et ainsi revivre des moments du JCC Pokémon inoubliables !</p>
+                        <!--<div class="row">
+                        </div>
+                        <div  id="bouton1">
+                        </div>
+                        <div id="bouton2">
+                        </div>
+                        <div id="bouton3">
+                        </div>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mt-4 mb-4 modal-content">
+                        <h2>Le Coffret Dresseur d'élite Célébrations du JCC Pokémon contient :</h2>
+                            <ul>
+                                <li>10 boosters de 4 cartes Célébrations du JCC Pokémon</li>
+                                <li>5 boosters supplémentaires du JCC Pokémon</li>
+                                <li>1 carte brillante spéciale d'Amphinobi ☆</li>
+                                <li>65 protège-cartes illustrés du logo des 25 ans de Pokémon et d'une queue foudroyante</li>
+                                <li>45 cartes Énergie du JCC Pokémon</li>
+                                <li>1 guide de jeu de l'extension Célébrations</li>
+                                <li>1 livret de règles du JCC Pokémon</li>
+                                <li>6 dés marqueurs de dégâts</li>
+                                <li>1 dé lancer de pièce autorisé en compétition</li>
+                                <li>2 marqueurs d'États Spéciaux en acrylique</li>
+                                <li>1 coffret de collection avec 4 séparateurs</li>
+                                <li>1 carte à code pour jouer en ligne avec ce deck</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-4">
+                        <h3>Ce coffret entier sera bientôt à toi !</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <img src="assets/img/pokemon2.jpeg" class="img-fluid mx-auto" alt="coffret">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="assets/img/pokemon.jpeg" class="img-fluid mx-auto" alt="coffret">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-4">
+                        <h3>Joyeux Anniversaire !! </h3>
+                    </div>
+                </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-6 text-end">
+                <p>Copyright Elo & Mickey - 24/10/2021</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/pokeball.png" class="img-fluid" alt="pokeball">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--jeu-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <!-- <script src="assets/js/main.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $("body").mousedown(function () {
+
+            document.getElementById('audio1').play();
+
+        });
+    </script>
+    <script>
+        const lePokemon = Math.floor(Math.random() * (150 - 1)) + 1;
+        console.log(lePokemon);
+
+        function myTest() {
+            console.log("voila")
+        };
+
+
+        function fetchKantoPokemon() {
+            fetch('https://pokeapi.co/api/v2/pokemon-species/' + lePokemon + '/')
+                .then(response => response.json())
+
+                .then(allpokemon => {
+                    function myTest() {
+                        console.log("voila")
+                    };
+
+
+                    var couleur = allpokemon.color.name
+                    console.log(couleur);
+                    console.log("votre couleur est:" + allpokemon.color.name)
+                    console.log("le type de pokemon est:" + allpokemon.genera[3].genus)
+                    console.log("le pokemon vie dans:" + allpokemon.habitat.name)
+                    console.log("le nom du pokemon est:" + allpokemon.names[4].name)
+                    console.log("la forme du pokemon est:" + allpokemon.shape.name)
+                    bouton1.innerHTML =
+                        ` <button onclick="myTest()" type="button" class="question1 btn btn-outline-primary">${allpokemon.color.name}</button>
+                        <button type="button" onclick="myTest()" class="question1 btn btn-outline-primary">${allpokemon.genera[3].genus}</button> 
+                         <button type="button" class="question1 btn btn-outline-primary">${allpokemon.habitat.name}</button> 
+                         <button type="button" class="question1 btn btn-outline-primary">${allpokemon.shape.name}</button> `
+
+                    function myTest() {
+                        console.log("voila")
+                    };
+
+                    $("#button").click(function () {
+                        console.log("bonjour")
+                    })
+
+
+
+                })
+            fetch('https://pokeapi.co/api/v2/pokemon/' + lePokemon + '/')
+                .then(response => response.json())
+
+                .then(allpokemon => {
+                    console.log(allpokemon.sprites.front_default)
+                    cardPokemon.innerHTML = ` <div class="col-3 pokeCard card" >
+            <img src="${allpokemon.sprites.front_default}" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+          </div>`
+                })
+
+        }
+        fetchKantoPokemon();
+
+
+        const lePokemon2 = Math.floor(Math.random() * (150 - 1)) + 1;
+        console.log(lePokemon2);
+
+        function fetchKantoPokemon2() {
+            fetch('https://pokeapi.co/api/v2/pokemon-species/' + lePokemon2 + '/')
+                .then(response => response.json())
+
+                .then(allpokemon => {
+
+
+                    console.log("votre couleur est:" + allpokemon.color.name)
+                    console.log("le type de pokemon est:" + allpokemon.genera[3].genus)
+                    console.log("le pokemon vie dans:" + allpokemon.habitat.name)
+                    console.log("le nom du pokemon est:" + allpokemon.names[4].name)
+                    console.log("la forme du pokemon est:" + allpokemon.shape.name)
+                    bouton2.innerHTML =
+                        ` <button type="button" class="question1 btn btn-outline-primary">${allpokemon.color.name}</button>
+                        <button type="button" class="question1 btn btn-outline-primary">${allpokemon.genera[3].genus}</button> 
+                         <button type="button" class="question1 btn btn-outline-primary">${allpokemon.habitat.name}</button> 
+                         <button type="button" class="question1 btn btn-outline-primary">${allpokemon.shape.name}</button> `
+                })
+            fetch('https://pokeapi.co/api/v2/pokemon/' + lePokemon2 + '/')
+                .then(response => response.json())
+
+                .then(allpokemon => {
+                    console.log(allpokemon.sprites.front_default)
+                    cardPokemon2.innerHTML = ` <div class="col-3 pokeCard card" >
+            <img src="${allpokemon.sprites.front_default}" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+          </div>`
+                })
+
+        }
+        fetchKantoPokemon2();
+
+
+        const lePokemon3 = Math.floor(Math.random() * (150 - 1)) + 1;
+        console.log(lePokemon3);
+
+        function fetchKantoPokemon3() {
+            fetch('https://pokeapi.co/api/v2/pokemon-species/' + lePokemon3 + '/')
+                .then(response => response.json())
+
+                .then(allpokemon => {
+
+
+                    console.log("votre couleur est:" + allpokemon.color.name)
+                    console.log("le type de pokemon est:" + allpokemon.genera[3].genus)
+                    console.log("le pokemon vie dans:" + allpokemon.habitat.name)
+                    console.log("le nom du pokemon est:" + allpokemon.names[4].name)
+                    console.log("la forme du pokemon est:" + allpokemon.shape.name)
+                    bouton3.innerHTML =
+                        ` <button type="button" class="question1 btn btn-outline-primary">${allpokemon.color.name}</button>
+                        <button type="button" class="question1 btn btn-outline-primary">${allpokemon.genera[3].genus}</button> 
+                         <button type="button" class="question1 btn btn-outline-primary">${allpokemon.habitat.name}</button> 
+                         <button type="button" class="question1 btn btn-outline-primary">${allpokemon.shape.name}</button> `
+                })
+            fetch('https://pokeapi.co/api/v2/pokemon/' + lePokemon3 + '/')
+                .then(response => response.json())
+
+                .then(allpokemon => {
+                    console.log(allpokemon.sprites.front_default)
+                    cardPokemon3.innerHTML = ` <div class="col-3 pokeCard card" >
+            <img src="${allpokemon.sprites.front_default}" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+          </div>`
+                })
+
+        }
+        fetchKantoPokemon3();
+
+        function myTest() {
+
+        };
+    </script>
+</body>
+
+</html>
